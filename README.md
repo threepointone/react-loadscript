@@ -8,6 +8,8 @@ script-loading as a component
 (I'm so sorry)
 
 ```js
+import {Script} from 'react-script';
+
 class App {
   render(){
     return <Script src='https://code.jquery.com/jquery-2.1.4.min.js'>{
