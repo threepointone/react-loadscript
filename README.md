@@ -1,4 +1,4 @@
-react-script
+react-loadscript
 ---
 
 `npm install react react-loadscript --save`
