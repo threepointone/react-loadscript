@@ -13,7 +13,9 @@ import {Script} from 'react-loadscript';
 class App {
   render(){
     return <Script src='https://code.jquery.com/jquery-2.1.4.min.js'>{
-      ({done}) => !done? <div>loading...</div> : <div>{$.map([1, 2, 3], i => <div>{i*5}</div>)}</div>
+      ({done}) => !done?
+        <div>loading...</div> :
+        <div>{$.map([1, 2, 3], i => <div>{i*5}</div>)}</div>
     }</Script>
   }
 }
