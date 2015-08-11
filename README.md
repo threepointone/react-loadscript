@@ -1,14 +1,14 @@
 react-script
 ---
 
-`npm install react react-script --save'
+`npm install react react-loadscript --save'
 
 script-loading as a component
 
 (I'm so sorry)
 
 ```js
-import {Script} from 'react-script';
+import {Script} from 'react-loadscript';
 
 class App {
   render(){
