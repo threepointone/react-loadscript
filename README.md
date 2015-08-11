@@ -1,7 +1,7 @@
 react-script
 ---
 
-`npm install react react-loadscript --save'
+`npm install react react-loadscript --save`
 
 script-loading as a component
 
